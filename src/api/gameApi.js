@@ -10,3 +10,12 @@ export const getAllGames = async () => {
     throw error;
   }
 };
+export const getGameTypes = async () => {
+  try {
+    const response = await api.get('/games/types');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching game types:', error);
+    throw error;
+  }
+};
