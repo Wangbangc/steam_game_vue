@@ -1,6 +1,6 @@
 <template>
     <el-container>
-      <el-header>双轴对比柱线图</el-header>
+   
       <el-main>
         <div id="barLineChart" style="width: 100%; height: 400px;"></div>
       </el-main>

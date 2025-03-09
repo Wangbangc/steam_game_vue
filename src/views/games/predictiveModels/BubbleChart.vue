@@ -1,6 +1,6 @@
 <template>
     <el-container>
-      <el-header>气泡散点图</el-header>
+     
       <el-main>
         <div id="bubbleChart" style="width: 100%; height: 400px;"></div>
       </el-main>

@@ -1,6 +1,6 @@
 <template>
     <el-container>
-      <el-header>价格与好评率的关系分析</el-header>
+    
       <el-main>
         <div id="priceRatingChart" style="width: 100%; height: 400px;"></div>
       </el-main>

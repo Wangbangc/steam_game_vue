@@ -1,6 +1,6 @@
 <template>
     <el-container>
-      <el-header>动态排序条形图</el-header>
+    
       <el-main>
         <div id="dynamicBarChart" style="width: 100%; height: 400px;"></div>
       </el-main>

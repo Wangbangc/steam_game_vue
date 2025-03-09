@@ -1,6 +1,6 @@
 <template>
     <el-container>
-      <el-header>环形玫瑰图</el-header>
+     
       <el-main>
         <div id="roseChart" style="width: 100%; height: 400px;"></div>
       </el-main>
