@@ -13,6 +13,7 @@ import RoseChart from '../views/games/predictiveModels/RoseChart.vue';
 import BarLineChart from '../views/games/predictiveModels/BarLineChart.vue';
 import BubbleChart from '../views/games/predictiveModels/BubbleChart.vue';
 import DynamicBarChart from '../views/games/predictiveModels/DynamicBarChart.vue';
+import DiscountGames from '@/views/games/DiscountGames.vue';
 
 const routes = [
 
@@ -29,7 +30,7 @@ const routes = [
   { path: '/bar-line-chart', name: 'barLineChart', component: BarLineChart },
   { path: '/bubble-chart', name: 'bubbleChart', component: BubbleChart },
   { path: '/dynamic-bar-chart', name: 'dynamicBarChart', component: DynamicBarChart },
-
+  { path: '/discount-games', name: 'discountGames', component:DiscountGames}
 ];
 
 const router = createRouter({

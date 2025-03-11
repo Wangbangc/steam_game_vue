@@ -19,3 +19,12 @@ export const getGameTypes = async () => {
     throw error;
   }
 };
+export const getGameInfo = async (gameName) => {
+  try {
+    const response = await api.get(`/api/gameinfo?gameName=${gameName}`);
+    return response.data;
+  } catch (error) {
+    console.error('API 请求错误:', error);
+    throw error; // 抛出错误，方便组件处理
+  }
+};

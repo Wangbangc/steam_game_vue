@@ -44,9 +44,9 @@
               <el-icon><DataAnalysis /></el-icon>
               自定义分析
             </el-menu-item>
-            <el-menu-item index="/profile" @click="goToPage('/profile')">
+            <el-menu-item index="/profile" @click="goToPage('/discount-games')">
               <el-icon><User /></el-icon>
-              用户中心
+              在线游戏查询
             </el-menu-item>
           </el-menu>
         </el-header>
